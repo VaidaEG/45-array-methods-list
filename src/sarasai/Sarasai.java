@@ -15,7 +15,8 @@ public class Sarasai {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        MyList ml = new MyList();
+        MyLinkedList ml = new MyLinkedList();
+//        MyList ml = new MyList();
         ml.add("Hello");
         System.out.println(ml);
         ml.add("World");
